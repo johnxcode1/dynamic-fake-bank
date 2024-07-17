@@ -80,7 +80,7 @@ def build():
         os.chdir("account/templates/templates/account")
 
         for f in os.listdir():
-            shutil.copy(f, f"{root}/account/templates/account/{f}")
+            shutil.copy(f, f"/account/templates/account/{f}")
 
     root = os.path.dirname(os.path.abspath(__file__))
 
